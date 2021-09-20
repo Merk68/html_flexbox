@@ -1,0 +1,29 @@
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: 150px;
+    background: aqua;
+}
+.content{
+    height: 600px;
+    display: flex;
+}
+nav{
+    background: orange;
+    flex-grow: 1;
+}
+main{
+    background: red;
+    flex-grow: 2;
+    margin: 0 25px;
+}
+.sidebar{
+    background: purple;
+    flex-grow: 1;
+}
+footer{
+    height: 150px;
+    background: blue;
+}
